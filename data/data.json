@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "genre": "Psychological thriller",
+      "publicationYear": "2019",
+      "rating": 4.3,
+      "id": 1
+    },
+    {
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "genre": "Literary Fiction",
+      "publicationYear": "2018",
+      "rating": 4.5,
+      "id": 2
+    },
+    {
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": "Memoir",
+      "publicationYear": "2018",
+      "rating": 4.7,
+      "id": 3
+    },
+    {
+      "title": "The Vanishing Half",
+      "author": "Brit Bennett",
+      "genre": "Contemporary Fiction",
+      "publicationYear": "2020",
+      "rating": 4.4,
+      "id": 4
+    },
+    {
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "genre": "Science Fiction",
+      "publicationYear": "2021",
+      "rating": 4.6,
+      "id": 5
+    }
+  ]
+}
