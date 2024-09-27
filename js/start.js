@@ -1,6 +1,6 @@
 // GET REQUEST
 function getTodos() {
-  // axios("http://localhost:3000/products", {
+  // axios("https://json-api.uz/api/project/rentbook/books", {
   //   method: "GET",
   //   params: {
   //     // _limit: 3, // Limit the number of items returned
@@ -12,7 +12,7 @@ function getTodos() {
   // })
 
   axios
-    .get("http://localhost:3000/products?limit=3&skip=2")
+    .get("https://json-api.uz/api/project/rentbook/books?limit=3&skip=2")
     .then((res) => showOutput(res))
     .catch((err) => console.log(err));
 }
