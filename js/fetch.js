@@ -1,13 +1,10 @@
 const btn = document.getElementById("get");
 
 btn.addEventListener("click", () => {
-  fetch("http://localhost:3000/products", {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-    },
-  })
-    .then((data) => data.json())
+  console.log("api checking");
+
+  fetch("https://json-api.uz/api/project/rentbook/books")
+    .then((res) => res.json())
     .then((data) => console.log(data))
-    .catch((error) => console.log(error));
+    .catch((err) => console.log(err));
 });
