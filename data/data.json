@@ -6,7 +6,7 @@
       "genre": "Psychological thriller",
       "publicationYear": "2019",
       "rating": 4.3,
-      "id": 1
+      "id": "1"
     },
     {
       "title": "Where the Crawdads Sing",
@@ -14,7 +14,7 @@
       "genre": "Literary Fiction",
       "publicationYear": "2018",
       "rating": 4.5,
-      "id": 2
+      "id": "2"
     },
     {
       "title": "Educated",
@@ -22,7 +22,7 @@
       "genre": "Memoir",
       "publicationYear": "2018",
       "rating": 4.7,
-      "id": 3
+      "id": "3"
     },
     {
       "title": "The Vanishing Half",
@@ -30,7 +30,7 @@
       "genre": "Contemporary Fiction",
       "publicationYear": "2020",
       "rating": 4.4,
-      "id": 4
+      "id": "4"
     },
     {
       "title": "Project Hail Mary",
@@ -38,7 +38,15 @@
       "genre": "Science Fiction",
       "publicationYear": "2021",
       "rating": 4.6,
-      "id": 5
+      "id": "5"
+    },
+    {
+      "id": "29c0",
+      "title": "Buyuklik sari...",
+      "author": "Azimjon Jalilov",
+      "genre": "autobiographic",
+      "publicationYear": "2024",
+      "rating": 4.8
     }
   ]
 }
