@@ -18,13 +18,44 @@ function getTodos() {
 }
 
 // POST REQUEST
-function addTodo() {}
+function addTodo() {
+  axios
+    .post("https://json-api.uz/api/project/rentbook/books", {
+      title: "My React Book",
+      author: "Azimjon Jalilov",
+      genre: "Science",
+      publicationYear: "2024",
+      rating: 5,
+    })
+    .then((res) => showOutput(res))
+    .catch((err) => console.log(err));
+}
 
 // PUT/PATCH REQUEST
-function updateTodo() {}
+function updateTodo() {
+  // axios
+  //   .put("https://json-api.uz/api/project/rentbook/books/2", {
+  //     rating: 5,
+  //   })
+  //   .then((res) => showOutput(res))
+  //   .catch((err) => console.log(err));
+
+  axios
+    .patch("https://json-api.uz/api/project/rentbook/books/3", {
+      rating: 5,
+      price: "120$",
+    })
+    .then((res) => showOutput(res))
+    .catch((err) => console.log(err));
+}
 
 // DELETE REQUEST
-function removeTodo() {}
+function removeTodo() {
+  axios
+    .delete("https://json-api.uz/api/project/rentbook/books/2")
+    .then((res) => showOutput(res))
+    .catch((err) => showOutput(err));
+}
 
 // SIMULTANEOUS DATA
 function getData() {}
