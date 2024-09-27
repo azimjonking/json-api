@@ -1,5 +1,18 @@
 // GET REQUEST
-function getTodos() {}
+function getTodos() {
+  axios("http://localhost:3000/products", {
+    method: "GET",
+    params: {
+      // _limit: 3, // Limit the number of items returned
+      skip: 2,
+      limit: 2,
+      // _sort: "id", // Sort the items in ascending order by ID
+      // _order: "asc", // Sort the items in ascending order by ID
+    },
+  })
+    .then((res) => showOutput(res))
+    .catch((err) => console.log(err));
+}
 
 // POST REQUEST
 function addTodo() {}
